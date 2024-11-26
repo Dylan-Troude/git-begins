@@ -1,0 +1,35 @@
+1. Commandes de base pour la gestion d'un dépôt
+
+    git init : Initialise un dépôt Git local dans un répertoire.
+    git clone <URL> : Clone un dépôt distant sur votre machine locale.
+
+2. Suivi et enregistrement des fichiers
+
+    git status : Affiche l'état des fichiers suivis/non suivis dans le dépôt.
+    git add <fichier> : Ajoute un fichier spécifique au suivi.
+    git add . : Ajoute tous les fichiers du répertoire courant au suivi.
+    git commit -m "message" : Crée un commit avec un message descriptif.
+
+3. Pousser les modifications vers un dépôt distant
+
+    git push origin main : Envoie les commits locaux vers la branche main du dépôt distant nommé origin.
+    git push origin master : Envoie les commits vers la branche master (si c'est la branche par défaut).
+    git push : Envoie les commits vers la branche suivie par défaut (après configuration avec git push -u).
+
+4. Récupérer les modifications depuis un dépôt distant
+
+    git pull : Récupère les dernières modifications d'un dépôt distant et fusionne les modifications dans la branche locale.
+    git fetch : Télécharge les modifications sans les fusionner (vous pouvez les examiner avant fusion).
+
+5. Gestion des branches
+
+    git branch : Liste les branches locales.
+    git branch <nom> : Crée une nouvelle branche.
+    git checkout <branche> : Bascule sur une branche existante.
+    git merge <branche> : Fusionne une branche dans la branche active.
+
+6. Débogage et historique
+
+    git log : Affiche l'historique des commits.
+    git diff : Compare les modifications dans les fichiers.
+    git reset : Annule des modifications ou des commits.
