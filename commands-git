@@ -1,0 +1,5 @@
+## Créer une branche
+git branch <nom-de-la-branche>
+
+## Basculer sur une branche
+git checkout <nom-de-la-branche>
